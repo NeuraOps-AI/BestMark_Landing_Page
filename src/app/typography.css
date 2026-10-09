@@ -1,0 +1,120 @@
+/* BestMark typography: editorial display, clear modern text. */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/newsreader-variable.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/manrope-variable.woff2') format('woff2');
+}
+:root {
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Manrope', Arial, sans-serif;
+  --type-display: clamp(60px, 6.4vw, 94px);
+  --type-heading: clamp(40px, 4.2vw, 60px);
+  --type-card: clamp(27px, 2.5vw, 34px);
+}
+body { font-family: var(--sans); font-optical-sizing: auto; line-height: 1.7; }
+h1, h2, h3 { font-family: var(--serif); font-style: normal; font-weight: 500; font-synthesis: none; }
+h1, h2 { letter-spacing: -.03em; line-height: 1.08; text-wrap: balance; }
+h3 { letter-spacing: -.014em; line-height: 1.16; }
+h2 { font-size: var(--type-heading); }
+h1 em, h2 em, h3 em { font-style: normal; font-weight: inherit; letter-spacing: inherit; }
+p { text-wrap: pretty; }
+.eyebrow, .micro, .footer-label { font-weight: 600; letter-spacing: .13em; }
+.eyebrow { font-size: 10px; line-height: 1.65; }
+.micro { font-size: 10px; line-height: 1.6; }
+.header nav>a { font-size: 12px; font-weight: 550; letter-spacing: .012em; }
+.button, .text-link { font-size: 12px; font-weight: 600; letter-spacing: .015em; }
+.brand-caption { font-size: 7px; letter-spacing: .18em; }
+.cinema-content h1 { font-family: var(--serif); font-size: var(--type-display); font-weight: 500; line-height: 1.035; letter-spacing: -.03em; }
+.cinema-content h1 em { font-style: normal; font-weight: inherit; color: #e7e0cf; }
+.cinema-eyebrow { font-size: 10px; font-weight: 600; letter-spacing: .15em; }
+.cinema-role { font-size: 10px; line-height: 1.7; letter-spacing: .1em; font-weight: 550; }
+.cinema-description { font-size: 15px; line-height: 1.8; max-width: 450px; }
+.cinema-partner { font-size: 12px; font-weight: 550; }
+.trust-value { font-size: clamp(29px, 2.6vw, 38px); font-weight: 450; letter-spacing: -.02em; font-variant-numeric: lining-nums; }
+.trust-strip .micro { font-size: 9px; letter-spacing: .09em; }
+.section-heading-side { font-size: 14px; line-height: 1.8; }
+.project-copy h3 { font-size: var(--type-card); margin-top: 11px; }
+.project-copy .micro { font-size: 9px; letter-spacing: .09em; }
+.project-copy>p:not(.micro) { font-size: 13px; line-height: 1.75; }
+.project-copy .text-link { font-size: 12px; }
+.project-type { font-size: 10px; font-weight: 550; letter-spacing: .025em; }
+.collection-note { font-size: 11px; line-height: 1.7; }
+.expertise-card h3 { font-size: clamp(32px, 3vw, 42px); line-height: 1.13; letter-spacing: -.018em; }
+.expertise-card>p, .story-copy>p { font-size: 14px; line-height: 1.85; }
+.story-copy>p { max-width: 390px; }
+.service-number, .story-stamp strong { font-weight: 450; font-variant-numeric: lining-nums; }
+.contact-cta h2 { font-size: var(--type-heading); }
+.footer-label { font-size: 9px; }
+.footer-top>div>a:not(.footer-logo), .footer-top>div>p { font-size: 12px; }
+.footer-top>div:first-child>p { font-size: 27px; line-height: 1.3; letter-spacing: -.012em; }
+.footer-bottom { font-size: 10px; }
+.page-intro h1, .article-page h1 { font-size: clamp(49px, 5.5vw, 80px); line-height: 1.06; letter-spacing: -.027em; }
+.intro-copy { font-size: 16px; line-height: 1.8; }
+.service-list h3, .values-grid h3, .process-flow h3 { font-size: 30px; }
+.service-list p, .values-grid p { font-size: 14px; line-height: 1.8; }
+.insight-copy h2 { font-size: clamp(29px, 2.6vw, 38px); line-height: 1.14; }
+.insight-copy p { font-size: 14px; line-height: 1.8; }
+.article-lead { font-size: 19px; line-height: 1.8; }
+.article-body>p { font-size: 16px; line-height: 1.9; }
+.detail-facts>div>p { font-size: 13px; }
+.form-grid label, .form-grid input, .form-grid select, .form-grid textarea { font-size: 13px; }
+.form-note, .connection-note, .official-source, .gallery-caption>span { font-size: 11px; }
+/* Compact city typography keeps the complete laptop composition visible. */
+.perspective-heading h2 { font-size: clamp(35px, 2.9vw, 44px); line-height: 1.055; letter-spacing: -.018em; }
+.perspective-heading .eyebrow { font-size: 9px; letter-spacing: .115em; }
+.perspective-intro { margin-left: 0; justify-self: start; }
+.perspective-intro p { font-size: 12px; line-height: 1.7; }
+.perspective-tabs button { font-size: 11px; font-weight: 550; letter-spacing: .01em; }
+.perspective-project strong { font-family: var(--serif); font-size: 23px; font-weight: 500; line-height: 1.1; }
+.perspective-project small { font-size: 9px; font-weight: 550; letter-spacing: .06em; }
+.perspective-project>span>span { font-size: 8px; font-weight: 500; letter-spacing: .08em; }
+.perspective-film-top>span { font-size: 9px; font-weight: 550; letter-spacing: .08em; }
+.perspective-film-top button { font-size: 10px; font-weight: 550; }
+.perspective-film-bottom h3 { font-size: 29px; font-weight: 500; line-height: 1.05; }
+.perspective-kicker { font-size: 9px; font-weight: 550; letter-spacing: .08em; }
+.perspective-explore { font-size: 11px; font-weight: 550; }
+.perspective-notes { font-size: 9px; line-height: 1.5; }
+.perspective-notes a { font-size: 11px; font-weight: 550; }
+@media(min-width:721px) and (max-width:900px) {
+  .perspective-heading h2 { font-size: 32px; }
+  .perspective-intro p { font-size: 11px; }
+  .perspective-tabs button { font-size: 10px; padding-inline: 6px; }
+  .perspective-project strong { font-size: 21px; }
+  .perspective-project small { font-size: 8px; }
+  .perspective-film-top>span { font-size: 7px; }
+  .perspective-film-top button { font-size: 9px; }
+  .perspective-notes { font-size: 8px; }
+  .perspective-film-bottom h3 { font-size: 25px; }
+}
+@media(max-width:720px) {
+  :root { --type-heading: clamp(37px, 9.5vw, 48px); --type-card: 31px; }
+  .cinema-content h1 { font-size: clamp(48px, 12.7vw, 72px); line-height: 1.04; letter-spacing: -.025em; }
+  .cinema-eyebrow { font-size: 8px; letter-spacing: .11em; }
+  .cinema-role { font-size: 9px; line-height: 1.7; }
+  .cinema-description { font-size: 14px; line-height: 1.8; }
+  .cinema-partner { font-size: 11px; }
+  .header nav>a { font-size: 15px; }
+  .trust-value { font-size: 26px; }
+  .trust-strip .micro { font-size: 8px; }
+  .section-heading-side { font-size: 13px; }
+  .eyebrow { font-size: 9px; }
+  .expertise-card h3 { font-size: 36px; }
+  .story-copy h2 { font-size: var(--type-heading); }
+  .page-intro h1, .article-page h1, .contact-copy h1 { font-size: clamp(43px, 11vw, 56px); }
+  .perspective-heading h2 { font-size: 39px; }
+  .perspective-tabs button { font-size: 11px; }
+  .perspective-project strong { font-size: 26px; }
+  .perspective-film-top>span { font-size: 7px; }
+  .perspective-film-top button { font-size: 9px; }
+  .perspective-notes { font-size: 9px; }
+  .footer-label { font-size: 9px; }
+}

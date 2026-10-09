@@ -1,0 +1,800 @@
+[
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/",
+    "hero": {
+      "headerBottom": 92.8000030517578,
+      "top": 148
+    },
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/projects/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/projects/fortune-towers/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/projects/lios-premium-villas/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/projects/the-harvest/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/services/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/about/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/insights/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/insights/west-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/insights/south-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/insights/choosing-a-property/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/contact/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1920,
+      "height": 1080
+    },
+    "route": "/privacy/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/",
+    "hero": {
+      "headerBottom": 92.8000030517578,
+      "top": 148
+    },
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/projects/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/projects/fortune-towers/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/projects/lios-premium-villas/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/projects/the-harvest/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/services/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/about/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/insights/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/insights/west-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/insights/south-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/insights/choosing-a-property/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/contact/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 2560,
+      "height": 1440
+    },
+    "route": "/privacy/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/",
+    "hero": {
+      "headerBottom": 92.8000030517578,
+      "top": 148
+    },
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/projects/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/projects/fortune-towers/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/projects/lios-premium-villas/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/projects/the-harvest/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/services/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/about/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/insights/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/insights/west-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/insights/south-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/insights/choosing-a-property/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/contact/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 1366,
+      "height": 768
+    },
+    "route": "/privacy/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/",
+    "hero": {
+      "headerBottom": 92.8000030517578,
+      "top": 148
+    },
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/projects/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/projects/fortune-towers/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/projects/lios-premium-villas/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/projects/the-harvest/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/services/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/about/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/insights/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/insights/west-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/insights/south-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/insights/choosing-a-property/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/contact/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 768,
+      "height": 1024
+    },
+    "route": "/privacy/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/",
+    "hero": {
+      "headerBottom": 84.80000305175781,
+      "top": 124
+    },
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/projects/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/projects/fortune-towers/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/projects/lios-premium-villas/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/projects/the-harvest/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/services/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/about/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/insights/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/insights/west-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/insights/south-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/insights/choosing-a-property/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/contact/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "route": "/privacy/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/",
+    "hero": {
+      "headerBottom": 84.80000305175781,
+      "top": 124
+    },
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/projects/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/projects/fortune-towers/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/projects/lios-premium-villas/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/projects/the-harvest/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/services/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/about/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/insights/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/insights/west-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/insights/south-hyderabad/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/insights/choosing-a-property/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/contact/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  },
+  {
+    "size": {
+      "width": 320,
+      "height": 740
+    },
+    "route": "/privacy/",
+    "hero": null,
+    "offscreen": [],
+    "overflow": false
+  }
+]

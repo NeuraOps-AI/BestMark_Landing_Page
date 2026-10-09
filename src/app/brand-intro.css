@@ -1,0 +1,31 @@
+.brand-intro { position: fixed; inset: 0; z-index: 100; pointer-events: none; animation: intro-remove .01s 3.35s forwards; }
+.intro-curtain { position: absolute; left: 0; right: 0; height: 50.1%; background: #f7f5f0; animation: intro-open .75s 2.6s cubic-bezier(.76,0,.24,1) both; }
+.intro-curtain-top { top: 0; --exit: -101%; }
+.intro-curtain-bottom { bottom: 0; --exit: 101%; }
+.intro-composition { position: absolute; inset: 0; background: #f7f5f0; display: flex; flex-direction: column; justify-content: center; align-items: center; animation: intro-fade .4s 2.5s both; }
+.intro-coordinate,.intro-est { color: #70808a; font-family: var(--sans); font-size: 9px; letter-spacing: .25em; animation: intro-rise .6s .2s both; }
+.intro-coordinate { margin-bottom: 34px; }
+.intro-rule { width: min(440px,76vw); height: 1px; background: #17344715; overflow: hidden; }
+.intro-rule>span { display: block; height: 100%; background: #153b52; transform-origin: left; animation: intro-line 1.15s .15s cubic-bezier(.2,.8,.2,1) both; }
+.intro-wordmark { position: relative; margin: 34px 0 18px; width: min(360px,70vw); mix-blend-mode: multiply; }
+.intro-wordmark .brand-lockup { width: 100%; clip-path: inset(0 100% 0 0); animation: intro-type 1.15s .35s steps(9,end) forwards; }
+.intro-wordmark .logo-crop { width: 100%; height: auto; aspect-ratio: 177/64; }
+.intro-wordmark .brand-caption { font-size: 8px; letter-spacing: .3em; margin-top: 9px; }
+.intro-caret { position: absolute; top: 25%; left: 0; width: 1px; height: 48%; background: #bb463e; animation: intro-caret 1.15s .35s steps(9,end) forwards, intro-caret-hide .25s 1.65s forwards; }
+.intro-signature { font-family: var(--serif); font-size: clamp(21px,3vw,27px); color: #173447; margin: 0 0 30px; }
+.intro-signature span { display: inline-block; animation: intro-letter .3s both; }
+.intro-rule-bottom>span { background: #bc5148; transform-origin: right; animation-delay: .65s; }
+.intro-est { margin-top: 25px; animation-delay: 1.5s; font-size: 8px; }
+.intro-corner { position: absolute; width: 32px; height: 32px; border-color: #17344730; border-style: solid; animation: intro-fade .4s 2.5s both; }
+.intro-corner-left { top: 35px; left: 35px; border-width: 1px 0 0 1px; }
+.intro-corner-right { bottom: 35px; right: 35px; border-width: 0 1px 1px 0; }
+@keyframes intro-type { to { clip-path: inset(0); } }
+@keyframes intro-caret { to { left: 100%; } }
+@keyframes intro-caret-hide { to { opacity: 0; } }
+@keyframes intro-line { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes intro-letter { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+@keyframes intro-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes intro-fade { to { opacity: 0; transform: translateY(-10px); } }
+@keyframes intro-open { to { transform: translateY(var(--exit)); } }
+@keyframes intro-remove { to { visibility: hidden; } }
+@media(prefers-reduced-motion:reduce) { .brand-intro { display: none; } }

@@ -1,0 +1,39 @@
+/* Shared screen rhythm: roomy monitor layouts, readable copy, safe grid tracks. */
+:root { --page-gutter: clamp(24px,3.2vw,64px); }
+.container { width: calc(100% - var(--page-gutter) * 2); max-width: 1600px; }
+.header .header-inner { width: calc(100% - var(--page-gutter) * 2); max-width: none; }
+.article-page { max-width: 1000px; }
+.project-grid,.insight-grid,.expertise-grid,.values-grid,.contact-page,.service-detail,
+.detail-overview,.amenities-layout,.story-section,.contact-cta,.footer-top { min-width: 0; }
+.project-grid>*,.insight-grid>*,.expertise-grid>*,.values-grid>*,.contact-page>*,
+.service-detail>*,.detail-overview>*,.amenities-layout>*,.story-section>*,
+.contact-cta>*,.footer-top>* { min-width: 0; }
+.detail-overview p,.about-prose p,.privacy-body p { max-width: 65ch; }
+.footer-top a,.footer-top p { overflow-wrap: anywhere; }
+.form-grid input,.form-grid select,.form-grid textarea { min-width: 0; max-width: 100%; }
+@media(min-width:1400px) {
+  .project-grid,.insight-grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 40px; }
+  .page-intro { padding-block: 80px 64px; }
+  .page-intro h1,.article-page h1,.contact-copy h1 { font-size: 72px; }
+  .section-heading { gap: 80px; }
+  .section-heading-side { max-width: 390px; }
+  .service-detail,.contact-page { gap: clamp(72px,5vw,120px); }
+  .enquiry-form { width: 100%; max-width: 760px; justify-self: end; }
+  .story-copy>p { max-width: 48ch; }
+}
+@media(max-width:1000px) {
+  .footer-top { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .detail-heading { flex-wrap: wrap; }
+}
+@media(max-width:720px) {
+  .header .header-inner { width: calc(100% - 48px); }
+  .page-intro h1,.article-page h1,.contact-copy h1 { overflow-wrap: break-word; }
+  .detail-facts>div { flex-wrap: wrap; row-gap: 6px; }
+  .detail-facts>div>p { flex-basis: 100%; }
+  .enquiry-form { width: 100%; }
+}
+@media(max-width:380px) {
+  :root { --page-gutter: 20px; }
+  .footer-top { grid-template-columns: minmax(0,1fr); }
+  .project-card .project-copy,.insight-copy,.expertise-card,.enquiry-form { padding-inline: 24px; }
+}

@@ -1,0 +1,116 @@
+/* Pearl, coastal blue and a restrained coral accent from the BestMark mark. */
+:root {
+  --brand-gradient: linear-gradient(115deg,#13354f 0%,#0868a5 42%,#267f99 72%,#13354f 100%);
+  --brand-hairline: linear-gradient(90deg,#0868a5,#94bdd1 55%,#d36a60);
+  --surface-gradient: linear-gradient(110deg,#d6e6f2 0%,#e8eae5 48%,#f0dbd0 100%);
+  --slate: #526371;
+}
+body,main { background: var(--surface-gradient); }
+.page-intro,.project-detail-intro,.listing-section,.article-page,.privacy-body,.contact-page {
+  background: transparent;
+}
+.button.secondary,.filter-bar button,.form-grid input,.form-grid select,.form-grid textarea {
+  background: #f7f5f0;
+  border-color: #b6c8d4;
+}
+.filter-bar button.active { background: #13354f; color: #fff; }
+.header nav.is-open { background: var(--surface-gradient); }
+.brand-intro { overflow: hidden; }
+.intro-curtain { background: linear-gradient(125deg,#e9eff7,#f8f4eb 55%,#f3e4de); }
+.intro-composition {
+  isolation: isolate;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% 50%,#faf8f1 12%,transparent 68%),linear-gradient(125deg,#e6eef8,#f7f2e9 55%,#f2ded8);
+}
+.intro-composition::before {
+  content: '';
+  position: absolute;
+  inset: -45%;
+  z-index: -1;
+  background: radial-gradient(ellipse at 20% 30%,#3e82cc55,transparent 38%),radial-gradient(ellipse at 78% 62%,#d9615140,transparent 34%),radial-gradient(ellipse at 48% 88%,#a3c8d46b,transparent 38%),radial-gradient(ellipse at 65% 18%,#eac79c65,transparent 30%);
+  animation: opening-aurora 5s cubic-bezier(.35,0,.2,1) both;
+}
+.intro-composition::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: min(76vw,900px);
+  aspect-ratio: 1;
+  border: 1px solid #ffffff55;
+  border-radius: 50%;
+  box-shadow: 0 0 0 75px #ffffff0b,0 0 0 150px #ffffff08;
+  animation: opening-orbit 3.2s cubic-bezier(.16,1,.3,1) both;
+}
+.intro-coordinate,.intro-est { color: #536b80; }
+.intro-rule { background: #36587418; }
+.intro-rule>span { background: var(--brand-hairline); }
+.intro-rule-bottom>span { background: linear-gradient(90deg,#d36a60,#c3a78a,#0868a5); }
+.intro-caret { box-shadow: 0 0 12px #d36a6070; }
+.intro-corner { border-color: #668ea54d; }
+.header.scrolled,.header:not(.header-overlay),.header.menu-open {
+  background: linear-gradient(110deg,#e5eef6f5,#eceee8f5 60%,#eeddd4f5);
+  border-color: #cad6df;
+}
+.button:not(.secondary),.cinema-actions .button {
+  background: #0868a5;
+  background-size: 220% 100%;
+  border-color: #74a7c14d;
+  color: #fff;
+  box-shadow: 0 8px 24px #0b3c6314;
+  transition: background-position .65s,box-shadow .4s,transform .4s;
+}
+.button:not(.secondary):hover,.cinema-actions .button:hover {
+  background: #13354f;
+  background-size: 220% 100%;
+  background-position: 100% 50%;
+  border-color: #74a7c180;
+  box-shadow: 0 10px 28px #0b3c632b;
+  transform: translateY(-2px);
+}
+.cinema-content h1 em {
+  background: none;
+  color: #e7e0cf;
+}
+.eyebrow>span,.cinema-eyebrow>span { background: #bc5148; }
+.trust-strip { border-image: none; }
+.trust-value { color: #135d86; }
+.expertise-card {
+  background: #f7f5f0;
+  border-color: #c7d6df;
+  transition: background .4s,box-shadow .4s,transform .4s;
+}
+.expertise-card:hover { background: #f7f5f0; box-shadow: 0 16px 35px #123a531a; transform: translateY(-4px); }
+.expertise-card.dark-card { background: #102d44; border-color: #31586d; }
+.expertise-card.dark-card:hover { background: #17384f; }
+.project-type,.story-stamp,.detail-facts,.enquiry-form { background: #f7f5f0; }
+.project-card { background: #f7f5f0; transition: opacity .8s,transform .8s cubic-bezier(.16,1,.3,1),box-shadow .4s; }
+.project-card .project-copy { padding: 22px 22px 25px; }
+.project-card.in-view:hover { transform: translateY(-5px); box-shadow: 0 16px 36px #10283f1a; }
+.project-card .image-arrow { background: #f7f5f0; }
+.project-card:hover .image-arrow { background: #0868a5; }
+.insight-art { background: #e3edf3; }
+.insight-art.art-1 { background: #dce8e5; }
+.insight-art.art-2 { background: #efe2d7; }
+.page-intro { background: transparent; }
+.contact-cta { background: radial-gradient(ellipse at 10% 100%,#b9d6e845,transparent 55%),radial-gradient(ellipse at 100% 0%,#ebcfc24d,transparent 55%); border-image: none; }
+.perspective-section { background: radial-gradient(ellipse at 0% 0%,#1b526c90,transparent 60%),radial-gradient(ellipse at 100% 100%,#654c4945,transparent 55%),linear-gradient(120deg,#071f34,#12334a); }
+.perspective-film { border-color: #9ebfd43b; box-shadow: 0 20px 50px #00000025; }
+.perspective-project.selected { background: #264457; border-color: #77a5bf66; }
+.perspective-playback>span { background: #97cadc; }
+.footer { background: radial-gradient(ellipse at 100% 0%,#25617b55,transparent 60%),linear-gradient(115deg,#071e32,#13364c 70%,#263c49); }
+@keyframes opening-aurora {
+  0% { transform: translate(-8%,5%) rotate(-12deg) scale(1.05); }
+  60% { transform: translate(6%,-5%) rotate(8deg) scale(1.12); }
+  100% { transform: translate(-1%,3%) rotate(16deg) scale(1.04); }
+}
+@keyframes opening-orbit { from { opacity: 0; transform: scale(.6) rotate(-20deg); } to { opacity: 1; transform: scale(1) rotate(12deg); } }
+@keyframes theme-tide { from { background-position: 0% 25%; } to { background-position: 100% 75%; } }
+@media(prefers-reduced-motion:no-preference) {
+  .contact-cta,.footer { background-size: 160% 160%; animation: theme-tide 20s ease-in-out infinite alternate; }
+  [data-reveal] { transition: opacity .85s cubic-bezier(.16,1,.3,1),transform .85s cubic-bezier(.16,1,.3,1); }
+  [data-reveal]:not(.in-view) { opacity: 0; transform: translateY(24px); }
+  .project-card.in-view h3,.expertise-card.in-view h3,.insight-card.in-view h2,.section-heading.in-view h2 { animation: card-text-rise .8s .08s both; }
+  .project-card.in-view p,.expertise-card.in-view p,.insight-card.in-view p,.section-heading.in-view p { animation: card-text-rise .8s .16s both; }
+}
+@keyframes card-text-rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@media(prefers-reduced-motion:reduce) { .button:hover,.expertise-card:hover { transform: none; } }

@@ -1,0 +1,57 @@
+/* Solid surfaces, measured motion and a shared line-icon language. */
+:root { --card-ease: cubic-bezier(.16,1,.3,1); }
+.icon-badge { display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; flex-shrink: 0; border: 1px solid #bbccd6; border-radius: 14px; background: #eaf0f3; color: #135d86; transition: transform .5s var(--card-ease),background .35s,color .35s; }
+.brand-icon { flex-shrink: 0; }
+.project-card,.expertise-card,.insight-card,.values-grid article,.service-list article,.detail-facts,.enquiry-form { border: 1px solid #bfcbd280; border-radius: 10px; box-shadow: 0 3px 8px #10283f05; overflow: hidden; }
+.project-card,.expertise-card,.insight-card,.values-grid article,.service-list article,.process-flow article,.detail-facts,.enquiry-form,.contact-methods>div,.perspective-project { transition: opacity .85s var(--card-ease),transform .85s var(--card-ease),box-shadow .4s,border-color .4s; }
+.project-card .project-image { border-radius: 9px 9px 0 0; }
+.project-copy { position: relative; }
+.project-copy::before,.insight-copy::before { content: ''; position: absolute; top: 0; left: 22px; width: 36px; height: 2px; background: #0868a5; transform: scaleX(0); transform-origin: left; transition: transform .6s var(--card-ease); }
+.project-card:hover .project-copy::before,.insight-card:hover .insight-copy::before { transform: scaleX(1); }
+.expertise-card .icon-badge { width: 58px; height: 58px; border-radius: 17px; }
+.dark-card .icon-badge,.process-flow .icon-badge { color: #b6d5e6; background: #1f435a; border-color: #557489; }
+.expertise-card:hover .icon-badge,.values-grid article:hover .icon-badge,.service-list article:hover .icon-badge { transform: translateY(-3px) rotate(-4deg); background: #dceaf2; }
+.dark-card:hover .icon-badge { background: #2a536b; }
+.insight-card { background: #f7f5f0; }
+.insight-art .brand-icon { position: static; width: 52px; height: 52px; opacity: 1; }
+.insight-copy { position: relative; padding: 25px 24px 29px; }
+.insight-copy h2 { margin-top: 12px; }
+.values-grid article { background: #f7f5f0; padding: 26px; }
+.value-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 22px; }
+.values-grid h3 { margin-top: 0; }
+.service-list article { position: relative; padding: 23px 24px 23px 90px; margin-bottom: 16px; background: #f7f5f0; }
+.service-list article>.icon-badge { position: absolute; left: 22px; top: 24px; }
+.service-list article h3 { font-size: 25px; line-height: 1.2; }
+.process-flow article { border: 1px solid #426078; border-radius: 10px; padding: 22px; margin-bottom: 16px; background: #17364c; }
+.process-flow .process-node { position: static; width: 48px; height: 48px; border: 0; background: none; padding: 0; }
+.process-flow article::before { display: none; }
+.contact-methods>div { position: relative; border: 1px solid #bfccd5; border-radius: 9px; padding: 23px 22px 23px 84px; margin-bottom: 14px; background: #f7f5f0; }
+.contact-methods>div>.icon-badge { position: absolute; top: 22px; left: 20px; width: 43px; height: 43px; border-radius: 12px; }
+.contact-methods a { overflow-wrap: anywhere; }
+.perspective-project { border-radius: 5px; }
+.perspective-film { border-radius: 8px; overflow: hidden; }
+.image-arrow { border: 1px solid #ffffff6b; box-shadow: 0 4px 15px #10283f12; }
+.text-link svg,.perspective-explore svg,.nav-contact svg { transition: transform .5s var(--card-ease); }
+.text-link:hover svg,.perspective-explore:hover svg,.nav-contact:hover svg { transform: translate(3px,-2px); }
+.project-card:focus-within,.insight-card:focus-visible,.expertise-card:focus-visible { border-color: #0868a5; box-shadow: 0 8px 25px #10283f14; }
+@media(hover:hover) and (prefers-reduced-motion:no-preference) {
+  [data-motion-card].in-view:hover { transform: translateY(-5px); box-shadow: 0 18px 38px #10283f18; border-color: #8aaac0; transition-delay: 0s!important; }
+  .process-flow article.in-view:hover,.perspective-project.in-view:hover { box-shadow: 0 14px 25px #00000020; }
+}
+@media(prefers-reduced-motion:no-preference) {
+  [data-motion-card].in-view .brand-icon path { animation: icon-trace 1.1s .12s both; }
+  [data-motion-card].in-view h2,[data-motion-card].in-view h3 { animation: card-text-rise .8s .12s both; }
+  [data-motion-card].in-view p { animation: card-text-rise .8s .2s both; }
+}
+@keyframes icon-trace { from { stroke-dasharray: 1; stroke-dashoffset: 1; opacity: .3; } to { stroke-dasharray: 1; stroke-dashoffset: 0; opacity: 1; } }
+@media(prefers-reduced-motion:reduce), (hover:none) {
+  .project-card.in-view:hover,.expertise-card:hover,.expertise-card:hover .icon-badge,.values-grid article:hover .icon-badge,.service-list article:hover .icon-badge { transform: none; }
+}
+@media(max-width:720px) {
+  .service-list article { padding: 23px 22px; }
+  .service-list article>.icon-badge { position: static; margin-bottom: 17px; }
+  .process-flow { padding-left: 0; }
+  .process-flow article { gap: 16px; padding: 20px; }
+  .process-flow h3 { font-size: 24px; }
+  .contact-methods>div { padding-left: 76px; }
+}

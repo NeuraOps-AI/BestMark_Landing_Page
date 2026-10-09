@@ -1,0 +1,2 @@
+import { Button, Eyebrow } from './ui';
+export function ContactCTA() { return <section className="contact-cta container" data-reveal><div><Eyebrow>YOUR NEXT CHAPTER</Eyebrow><h2>Good decisions begin<br />with a <em>conversation.</em></h2></div><div><p>A first home, a considered investment, or your next development. Let’s start with what matters to you.</p><Button href="/contact/">Speak with BestMark</Button></div></section>; }

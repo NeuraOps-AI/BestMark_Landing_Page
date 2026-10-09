@@ -1,0 +1,110 @@
+[
+  {
+    "name": "fortune-logo",
+    "url": "https://fortunetowers.co.in/images/blacklogo.png",
+    "logo": true
+  },
+  {
+    "name": "fortune-towers",
+    "url": "https://fortunetowers.co.in/images/block/Dayviewrevised.jpeg"
+  },
+  {
+    "name": "fortune-night",
+    "url": "https://fortunetowers.co.in/images/block/Ablocknight.jpeg"
+  },
+  {
+    "name": "fortune-clubhouse",
+    "url": "https://fortunetowers.co.in/images/ClubFortune.jpeg"
+  },
+  {
+    "name": "fortune-location",
+    "url": "https://fortunetowers.co.in/images/OORexit.png",
+    "diagram": true
+  },
+  {
+    "name": "fortune-site",
+    "url": "https://fortunetowers.co.in/images/DJI_20260810063840_0037_D.JPG.jpeg"
+  },
+  {
+    "name": "fortune-plan-a",
+    "url": "https://fortunetowers.co.in/images/floor/ABLOCK.jpeg",
+    "diagram": true
+  },
+  {
+    "name": "fortune-plan-b",
+    "url": "https://fortunetowers.co.in/images/floor/BBLOCK.jpeg",
+    "diagram": true
+  },
+  {
+    "name": "fortune-plan-c",
+    "url": "https://fortunetowers.co.in/images/floor/CBLOCK.jpeg",
+    "diagram": true
+  },
+  {
+    "name": "fortune-plan-d",
+    "url": "https://fortunetowers.co.in/images/floor/DBLOCK.jpeg",
+    "diagram": true
+  },
+  {
+    "name": "fortune-plan-e",
+    "url": "https://fortunetowers.co.in/images/floor/EBLOCK.jpeg",
+    "diagram": true
+  },
+  {
+    "name": "grupe-nayan-logo",
+    "url": "https://grupenayan.com/wp-content/uploads/2024/08/Grupe-Nayan_Logo-fit.png",
+    "logo": true
+  },
+  {
+    "name": "lios-street",
+    "url": "https://grupenayan.com/wp-content/uploads/2025/08/Street-View_web-new.webp"
+  },
+  {
+    "name": "lios-villas",
+    "url": "https://grupenayan.com/wp-content/uploads/2025/08/East-_Indivivual_web-new-2.jpg"
+  },
+  {
+    "name": "lios-clubhouse",
+    "url": "https://grupenayan.com/wp-content/uploads/2025/08/Club-1-new.jpg"
+  },
+  {
+    "name": "lios-pool",
+    "url": "https://grupenayan.com/wp-content/uploads/2025/08/Club-3-new.jpg"
+  },
+  {
+    "name": "lios-landscape",
+    "url": "https://grupenayan.com/wp-content/uploads/2025/08/greenery-8-new.webp"
+  },
+  {
+    "name": "lios-location",
+    "url": "https://grupenayan.com/wp-content/uploads/2025/06/GN_Location-web.png",
+    "diagram": true
+  },
+  {
+    "name": "harvest-logo",
+    "url": "https://theharvestkokapet.in/wp-content/uploads/2024/07/poojalogo-01.webp",
+    "logo": true
+  },
+  {
+    "name": "harvest-cover",
+    "url": "https://theharvestkokapet.in/wp-content/uploads/2024/07/Brochure.pdf.jpg"
+  },
+  {
+    "name": "harvest-master-plan",
+    "url": "https://theharvestkokapet.in/wp-content/uploads/2024/07/PCH-The-Harvest-Brochure-2023-WA-1_page-0007.jpg",
+    "diagram": true
+  },
+  {
+    "name": "harvest-typical-plan",
+    "url": "https://theharvestkokapet.in/wp-content/uploads/2024/07/Brochure.pdf-11.jpg",
+    "diagram": true
+  },
+  {
+    "name": "harvest",
+    "url": "https://theharvestkokapet.in/wp-content/uploads/2024/07/Brochure.pdf-5-1.jpg"
+  },
+  {
+    "name": "harvest-amenities",
+    "url": "https://theharvestkokapet.in/wp-content/uploads/2024/07/16eea2e9-425c-4c81-87ea-b602fbc33528.jpg"
+  }
+]

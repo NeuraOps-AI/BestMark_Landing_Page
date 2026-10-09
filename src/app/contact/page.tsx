@@ -1,0 +1,7 @@
+import type { Metadata } from 'next';
+import { Icon } from '@/components/icon';
+import { Eyebrow, Arrow } from '@/components/ui';
+import { ContactForm } from '@/components/contact-form';
+import { contact } from '@/lib/content';
+export const metadata: Metadata = { title: 'Start a conversation' };
+export default function Contact() { return <section className="container contact-page"><div className="contact-copy"><Eyebrow>LET’S BEGIN</Eyebrow><h1>Your next move.<br /><em>Let’s talk.</em></h1><p className="intro-copy">A clear conversation is a good place to start. Tell us what you’re looking for, and we’ll help you find your direction.</p><div className="contact-methods"><div><Icon name="phone" badge /><span className="micro">CALL OUR TEAM</span><a href={`tel:${contact.tel}`}>{contact.phone} <Arrow diagonal /></a></div><div><Icon name="mail" badge /><span className="micro">WRITE TO US</span><a href={`mailto:${contact.email}`}>{contact.email} <Arrow diagonal /></a></div><div><Icon name="pin" badge /><span className="micro">VISIT BESTMARK</span><p>{contact.address}</p><a className="text-link" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent('Vasavi Sky City Gachibowli Hyderabad')}`} target="_blank" rel="noopener noreferrer">Get directions <Arrow diagonal /></a><span className="office-hours">Monday–Saturday · 10am–7pm</span></div></div></div><ContactForm /></section>; }
